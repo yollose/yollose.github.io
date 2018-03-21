@@ -1,91 +1,89 @@
-<!DOCTYPE html>  
-<html>  
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-    <script>
-    function doSave(value, type, name) {  
-    var blob;  
-    if (typeof window.Blob == "function") {  
-        blob = new Blob([value], {type: type});  
-    } else {  
-        var BlobBuilder = window.BlobBuilder || window.MozBlobBuilder || window.WebKitBlobBuilder || window.MSBlobBuilder;  
-        var bb = new BlobBuilder();  
-        bb.append(value);  
-        blob = bb.getBlob(type);  
-    }  
-    var URL = window.URL || window.webkitURL;  
-    var bloburl = URL.createObjectURL(blob);  
-    var anchor = document.createElement("a");  
-    if ('download' in anchor) {  
-        anchor.style.visibility = "hidden";  
-        anchor.href = bloburl;  
-        anchor.download = name;  
-        document.body.appendChild(anchor);  
-        var evt = document.createEvent("MouseEvents");  
-        evt.initEvent("click", true, true);  
-        anchor.dispatchEvent(evt);  
-        document.body.removeChild(anchor);  
-    } else if (navigator.msSaveBlob) {  
-        navigator.msSaveBlob(blob, name);  
-    } else {  
-        location.href = bloburl;  
-    }  
-}  
-  
-var a;
-a='2';
-function Save(){  
-    doSave(a, "text/latex", "hello.html");   
-}  
-    </script>
-    <style type="text/css">
-    *{
-    	background-color:#f4f4f4;
-    }
-	#abox {
-		width: 600px;
-		height: 500px;
-		padding: 10px;
-		background-color: #fcfbfb;
-		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-
-		margin: 0 auto;
-	}
-	form{
-		background-color: #fcfbfb;
-	}
-	
-	#savetext{
-		position: relative;
-		top:28px;
-		background:rgba(0,0,0,0.3);
-		color:#fff;
-		padding: 0 1em;
-	}
-	#send{
-		position: absolute;
-	}
-	a:link{
-	}
-	a:visited{
-	}
-	a:hover{
-	}
-	a:active{
-	}
-	a:focus{
-	}
-	h1+p{
-	}
-    </style>
-</head>  
+	<style type="text/css">
+		td{
+			padding: 50px;
+			background-color: #fff;
+			font-size: 30px;
+			width: 50px;
+			height: 50px;
+			text-align: center;
+		}
+		table{
+			margin: 0 auto;
+			margin-top: 200px;
+		}
+	</style>
+	<script src="jq.js"></script>
+</head>
 <body>
-	<div id="abox">	
-		<form action="mailto:1483908178@qq.com">
-	 	<input id="send" type="submit" value="发送">
-		</form>
-    <input type="button" id="savetext" value="保存" onclick="Save()"/>
-    </div>
-</body>  
-</html> 
+	<script>
+	$(document).ready(function(){
+		$("table").click(function(){
+			$("nav").toggle();
+		});
+	});
+	</script>
+
+	<script type="text/javascript">
+		var x;
+		x = 3;
+	</script>
+	<script type="text/javascript">
+	function q(y) {
+		var i;
+		i=document.getElementById(y)
+		if (x%2==0) 
+			{
+				i.innerHTML="$";
+			}
+		else
+			{
+				i.innerHTML="@";
+			}	
+		x++;
+	}
+	</script>
+	<table border="1">
+		<tr>
+			<td id="1" onclick="q('1')"> </td>
+			<td id="2" onclick="q('2')"> </td>
+			<td id="3" onclick="q('3')"> </td>
+		</tr>
+		<tr>
+			<td id="4" onclick="q('4')"> </td>
+			<td id="5" onclick="q('5')"> </td>
+			<td id="6" onclick="q('6')"> </td>
+		</tr>
+		<tr>
+			<td id="7" onclick="q('7')"> </td>
+			<td id="8" onclick="q('8')"> </td>
+			<td id="9" onclick="q('9')"> </td>
+		</tr>
+	</table>
+	<script>
+		document.write(Date());
+	</script>
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=907939001&auto=1&height=66"></iframe>
+	<nav>导航块</nav>
+	<article>标题</article>
+	<aside>边栏</aside>
+	<!--
+	　/＼7　　　 ∠＿/
+　 /　│　　 ／　／
+　│　Z ＿,＜　／　　 /`ヽ
+　│　　　　　ヽ　　 /　　〉
+　 Y　　　　　`　 /　　/
+　ｲ●　､　●　　⊂⊃〈　　/
+　()　 へ　　　　|　＼〈
+　　>ｰ ､_　 ィ　 │ ／／
+　 / へ　　 /　ﾉ＜| ＼＼
+　 ヽ_ﾉ　　(_／　 │／／
+　　7　　　　　　　|／
+　　＞―r￣￣`ｰ―＿
+	-->
+</body>
+</html>
