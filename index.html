@@ -1,7 +1,91 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html>  
+<html>  
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <script>
+    function doSave(value, type, name) {  
+    var blob;  
+    if (typeof window.Blob == "function") {  
+        blob = new Blob([value], {type: type});  
+    } else {  
+        var BlobBuilder = window.BlobBuilder || window.MozBlobBuilder || window.WebKitBlobBuilder || window.MSBlobBuilder;  
+        var bb = new BlobBuilder();  
+        bb.append(value);  
+        blob = bb.getBlob(type);  
+    }  
+    var URL = window.URL || window.webkitURL;  
+    var bloburl = URL.createObjectURL(blob);  
+    var anchor = document.createElement("a");  
+    if ('download' in anchor) {  
+        anchor.style.visibility = "hidden";  
+        anchor.href = bloburl;  
+        anchor.download = name;  
+        document.body.appendChild(anchor);  
+        var evt = document.createEvent("MouseEvents");  
+        evt.initEvent("click", true, true);  
+        anchor.dispatchEvent(evt);  
+        document.body.removeChild(anchor);  
+    } else if (navigator.msSaveBlob) {  
+        navigator.msSaveBlob(blob, name);  
+    } else {  
+        location.href = bloburl;  
+    }  
+}  
+  
+var a;
+a='2';
+function Save(){  
+    doSave(a, "text/latex", "hello.html");   
+}  
+    </script>
+    <style type="text/css">
+    *{
+    	background-color:#f4f4f4;
+    }
+	#abox {
+		width: 600px;
+		height: 500px;
+		padding: 10px;
+		background-color: #fcfbfb;
+		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+
+		margin: 0 auto;
+	}
+	form{
+		background-color: #fcfbfb;
+	}
+	
+	#savetext{
+		position: relative;
+		top:28px;
+		background:rgba(0,0,0,0.3);
+		color:#fff;
+		padding: 0 1em;
+	}
+	#send{
+		position: absolute;
+	}
+	a:link{
+	}
+	a:visited{
+	}
+	a:hover{
+	}
+	a:active{
+	}
+	a:focus{
+	}
+	h1+p{
+	}
+    </style>
+</head>  
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+	<div id="abox">	
+		<form action="mailto:1483908178@qq.com">
+	 	<input id="send" type="submit" value="发送">
+		</form>
+    <input type="button" id="savetext" value="保存" onclick="Save()"/>
+    </div>
+</body>  
+</html> 
