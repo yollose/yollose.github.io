@@ -1,85 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<style type="text/css">
-		td{
-			padding: 50px;
-			background-color: #fff;
-			font-size: 30px;
-			width: 50px;
-			height: 50px;
-			text-align: center;
-		}
-		table{
-			margin: 0 auto;
-			margin-top: 200px;
-		}
+	<title>三栏式布局</title>
+	<meta charset="utf-8">
+	<style>
+	*{
+		margin: 0;
+		padding:0;
+	}
+	.box{
+		min-width: 500px;
+		margin: 20px;
+		padding: 20px;
+		background: #eee;
+		border: 1px solid #999;
+		overflow: auto;
+	}
+	.left{
+		float: left;
+		width: 160px;
+		height: 80px;
+		background-color: #FFFFFF;
+		border: 1px solid #999;
+		padding: 20px;
+	}
+	
+	.logo {
+		width: 80px;
+		height: 80px;
+		border: 1px solid #999;
+	}
+	.logo {
+		float: left;
+	}
+	p{
+		float: right;
+	}
+	.right{
+		padding: 20px;
+		float: right;
+		width: 80px;
+		background-color: #FFFFFF;
+		border: 1px solid #999;
+	
+	}
+	.logotu{
+		width: 80px;
+		height: 80px;
+		border: 1px solid #999;
+		margin-bottom: 20px;
+	}
+	.lastlogotu{
+		width: 80px;
+		height: 80px;
+		border: 1px solid #999;
+	}
+	.center{
+		padding: 20px;
+		margin-left: 220px;
+		margin-right: 140px;
+		background: #FFFFFF;
+		border: 1px solid #999;
+	}
+		/*绝对定位*/
+	.bo{
+		position: relative;
+		min-width: 500px;
+		margin: 20px;
+		padding: 20px;
+		background: #eee;
+		border: 1px solid #999;
+		overflow: auto;
+	}
+	/*.lef{
+		position: absolute;
+		height: 80px;
+		width: 160px;
+		top: 20px;
+		left: 20px;
+		background: #FFFFFF;
+		border: 1px solid #999;
+		padding: 20px;
+	}
+	.cente{
+		margin-left: 220px;
+		margin-right: 140px;
+		background: #FFFFFF;
+		border: 1px solid #999;
+		padding: 20px;
+	}
+	.righ{
+		position: absolute;
+		width: 80px;
+		top: 20px;
+		right: 20px;
+		padding: 20px;
+		background: #FFFFFF;
+		border: 1px solid #999;
+	}*/
 	</style>
-	<script src="jq.js"></script>
 </head>
 <body>
-	<script>
-	$(document).ready(function(){
-		$("table").click(function(){
-			$("nav").toggle();
-		});
-	});
-	</script>
-
-	<script type="text/javascript">
-		var x;
-		x = 3;
-	</script>
-	<script type="text/javascript">
-	function q(y) {
-		var i;
-		i=document.getElementById(y)
-		if (x%2==0) 
-			{
-				i.innerHTML="$";
-			}
-		else
-			{
-				i.innerHTML="@";
-			}	
-		x++;
-	}
-	</script>
-	<table border="1">
-		<tr>
-			<td id="1" onclick="q('1')"> </td>
-			<td id="2" onclick="q('2')"> </td>
-			<td id="3" onclick="q('3')"> </td>
-		</tr>
-		<tr>
-			<td id="4" onclick="q('4')"> </td>
-			<td id="5" onclick="q('5')"> </td>
-			<td id="6" onclick="q('6')"> </td>
-		</tr>
-		<tr>
-			<td id="7" onclick="q('7')"> </td>
-			<td id="8" onclick="q('8')"> </td>
-			<td id="9" onclick="q('9')"> </td>
-		</tr>
-	</table>
-	<script>
-		document.write(Date());
-	</script>
-	<!--
-	　/＼7　　　 ∠＿/
-　 /　│　　 ／　／
-　│　Z ＿,＜　／　　 /`ヽ
-　│　　　　　ヽ　　 /　　〉
-　 Y　　　　　`　 /　　/
-　ｲ●　､　●　　⊂⊃〈　　/
-　()　 へ　　　　|　＼〈
-　　>ｰ ､_　 ィ　 │ ／／
-　 / へ　　 /　ﾉ＜| ＼＼
-　 ヽ_ﾉ　　(_／　 │／／
-　　7　　　　　　　|／
-　　＞―r￣￣`ｰ―＿
-	-->
+	<div class="box">
+		<div class="left">
+			<div class="logo">团队logo80*80</div>
+			<p>团队名称</p>
+		</div>
+		<div class="right">
+			<div class="logotu">团队logo80*80</div>
+			<div class="logotu">团队logo80*80</div>
+			<div class="logotu">团队logo80*80</div>
+			<div class="lastlogotu">团队logo80*80</div>
+		</div>
+		<div class="center">
+		有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，
+		</div>
+	</div>
+	<div class="bo">
+			<div class="lef">
+				<div class="logo">
+					团队logo80*80
+				</div>
+				<p>团队名称</p>
+			</div>
+			<div class="cente">
+				有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，有好多字，
+			</div>
+			<div class="righ">
+				<div class="logotu">
+					个人logo80*80
+				</div>
+				<div class="logotu">
+					个人logo80*80
+				</div>
+				<div class="logotu">
+					个人logo80*80
+				</div>
+				<div class="lastlogotu">
+					个人logo80*80
+				</div>
+			</div>
+			
+		</div>
 </body>
 </html>
