@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+/*<meta name="viewport" content="width=device-width,initial-scale=1.0" />*/
+
+body{background:rgb(230,230,230)}
+div{margin:0;padding:0;overflow:hidden}
+.back{width:90%;background:rgb(255,255,255);height:620px;box-shadow:4px 4px 18px 4px rgb(180,180,180);margin:0 auto;border-radius:20px;margin-bottom:50px}
+#back0{margin-bottom:0px}
+ul li{list-style-type: none;float:left;margin-right:2%;width:28%;transform:translateX(14%) translateY(-35px)}
+.box{margin-top:35px;height:150px;border:thin rgb(177,201,234) solid;border-radius: 8px}
+.top{margin:0;overflow:hidden;height:56px;}
+.pic{float:left;transform: translateX(95%) translateY(50%);width:40px;height:40px;}
+.cha1{font-family: Microsoft YaHei UI;font-size:30px;color:rgba(76,92,205,0.9);transform: translateX(50%) translateY(55%);float:left;}
+
+
+.logo{width:30%;height:55%;transform:translateX(115%) translateY(8%);border-radius:20px;box-shadow:2px 2px 20px 2px #CCC}
+.01,.02,.03{width:150%;height:40%;box-shadow:none}
+.logo:hover{transform: scale(1.1) translateX(105%);transition:0.3s;}
+
+a{text-decoration: none;font-family:Microsoft YaHei UI;}
+.char2,.char{color:#151414}
+.char2{transform: translateY(5%)}
+.char{margin:0;transform: translateY(-50%);font-size:70%;color:#2A2323}
+.char2:hover{color:rgba(51,35,22,1.00);transform: scale(1.2)}
