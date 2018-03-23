@@ -13,12 +13,16 @@ ul li{list-style-type: none;float:left;margin-right:2%;width:28%;transform:trans
 .cha1{font-family: Microsoft YaHei UI;font-size:30px;color:rgba(76,92,205,0.9);transform: translateX(50%) translateY(55%);float:left;}
 
 
-.logo{width:30%;height:55%;transform:translateX(115%) translateY(8%);border-radius:20px;box-shadow:2px 2px 20px 2px #CCC}
+.logo{width:60px;height:55px;transform:translateX(15%) translateY(20%);border-radius:12px;float:left}
 .01,.02,.03{width:150%;height:40%;box-shadow:none}
-.logo:hover{transform: scale(1.1) translateX(105%);transition:0.3s;}
+.box:hover{transform: translateY(-5%);box-shadow:2px 5px 15px 0px rgba(85,105,205,0.4);transition:0.3s linear;transition-delay: 0.1s;}
 
 a{text-decoration: none;font-family:Microsoft YaHei UI;}
 .char2,.char{color:#151414}
-.char2{transform: translateY(5%)}
-.char{margin:0;transform: translateY(-50%);font-size:70%;color:#2A2323}
-.char2:hover{color:rgba(51,35,22,1.00);transform: scale(1.2)}
+.char2{font-size: 150%;float:left;margin-left:10%}
+.char{font-size:105%;color:#2A2323;float:left;clear:left;margin-left:3%}
+
+.char3{color:#151414;margin-left:30%;margin-top:10%;transform: scale(1.1);font-size: 100%;}
+
+#imp{overflow:auto}
+
