@@ -15,6 +15,12 @@ html{font-size: 62.5%;}
 		box-shadow:2px 5px 15px 0px rgba(180,180,180,0.4);
         opacity: 1;
         z-index:999}
+#linajie:link{
+	color: #757575;
+}
+#linajie:active{
+	color: #757575;
+}
 #hitokoto{
 	font-size:16px;
 	font-style:rgba(180,180,180,0.4)
@@ -29,7 +35,7 @@ html{font-size: 62.5%;}
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-	margin-right: -0.25em;}
+  margin-right: -0.25em;}
 #daohang ul li{list-style: none;
    display: inline;
 	margin: 1rem;
