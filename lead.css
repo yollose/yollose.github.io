@@ -21,12 +21,12 @@ span{
     font-weight: bold;
 }
 .logo{width:35px;height:35px;transform:translateX(25%) translateY(20%);border-radius:5px;float:left}
-.box:hover{transform: translateY(-5%);box-shadow:2px 5px 15px 0px rgba(85,105,205,0.4);transition:0.3s linear;transition-delay: 0.1s;}
+.box:hover{transform: translateY(-5%);box-shadow:2px 5px 15px 0px rgba(85,105,205,0.4);transition:0.3s ease;transition-delay: 0.1s;}
 
 a{text-decoration: none;font-family:Microsoft YaHei UI;}
 .char2{font-size: 130%;float:left;margin-left:10%;color:black;font-weight:400}
 .char{font-size:130%;color:#949494;float:left;clear:left;margin-left:3%}
-
+.01,.02,.03{width:150%;height:40%;box-shadow:none}
 .char3{color:black;margin-left:30%;margin-top:10%;transform: scale(1.1);font-size:18px;font-family:Microsoft YaHei UI }
 
 #imp{overflow: auto}
