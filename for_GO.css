@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+html{font-size: 62.5%;}
+#daohang{position: fixed;
+		margin: 0 auto;
+	    padding: 0;
+		left: auto;
+	    right: auto;
+	    top: 0;
+	    height:auto;
+		padding-top: 0.5rem;
+		width: 100%;
+        text-align: center;
+	    background-color: #ffffff;
+        opacity: 1;
+        z-index:999}
+.guid{
+	 top: 0;
+	 vertical-align: middle;
+  width: 50%;
+	position: fixed;  }
+.guid:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+	margin-right: -0.25em;}
+#daohang ul li{list-style: none;
+   display: inline;
+	margin: 1rem;
+	text-align: center;
+   }
+span>img{
+	vertical-align:middle;
+    transform:translateX(-15%);
+}
+#daohang ul li a{text-decoration: none;
+				 font-size: 2.5rem;
+				 font-family:  "Microsoft Yahei UI";
+				 color: #696969;
+	             
+	  	  }
+#HUST_LOGO span{margin-right: 20rem;
+		margin-left: auto;
+		font-size: 3rem;
+		color: #476ee2;}
+.icons{display: inline;}
+#saer :hover{background: url('Search_52px_2.png')}
+#saer{width: 1rem;
+	  height: 1rem;
+	  background: url(Home_52px_4.png)}
+#daohang{position: relative;
+		
+		 }
+#daohang img:hover{transform: scale(1.2)
+					}
+#daohang :hover{color: #476EE2;
+				}
+#smalogo{position: absolute;
+		margin-top: 5rem;
+		margin-left:7rem;}
+#search{
+		border-radius: 5px;
+		box-shadow:4px 4px 18px 4px rgb(180,180,180);
+		width:90%;
+		margin: 0 auto; 
+		margin-top: 3rem;
+		background-color: #ffffff;
+		height: 60rem;
+		font-size: 2.5rem;
+		 font-family:  "Microsoft Yahei UI";
+		 color: #696969}
+#logo{margin: 0 auto;
+	  width: 40%;
+	text-align: center;
+	 }
+form{position: relative;
+	 width: 40%;
+	 margin: 0 auto;}
+input,button{
+	border:none;
+	outline: none;
+}
+input{width: 100%;
+      height: 5rem;
+		font-size: 3rem;
+        font-family: "微软雅黑", "幼圆";}
+#searchbar button{height: 5.1rem;
+	  width: 5rem;
+	  cursor:pointer;
+	  position: absolute;
+      border-radius: 0 2rem 2rem 0;
+      top: 0.1rem;;
+	  right: 0;}
+#searchbar input {border: 0.1rem solid #7BA7AB;
+				border-radius: 2.5rem;
+				}
+#searchbar button:before{
+	content: "\f002";
+	font-family: "微软雅黑", "幼圆";
+	font-size: 2rem;
+}
+.briefs li{background-color: #DDDDDD;
+		border: none;
+		border-radius: 1rem;
+		font-size: 2rem;
+        margin: 1.5rem;
+        width: auto;
+		padding: 1rem;
+		list-style: none;
+        display: inline;
+	   margin: 1rem;
+	   text-align: center;}
+.briefs{text-align: center;
+		margin-top: 3rem;}
+#two_words{margin-top: 5rem;
+			text-align: center;}
+.gotop{position: fixed;
+		text-decoration: none;
+		top: 70%;
+		left: 85%;
+		margin-left: 5rem;margin-top: 5rem;
+		background-color: #4F8B2B;
+        width: 6%;height: 14%;
+		border-radius: 5rem;
+		font-family: "微软雅黑", "幼圆";
+        font-size: 2rem;
+		text-align: center;
+        color: #E49100;}
+
+
+
+
+
+
