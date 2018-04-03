@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 /*<meta name="viewport" content="width=device-width,initial-scale=1.0" />*/
 
@@ -30,3 +30,18 @@ a{text-decoration: none;font-family:Microsoft YaHei UI;}
 .char3{color:black;margin-left:30%;margin-top:10%;transform: scale(1.1);font-size:18px;font-family:Microsoft YaHei UI }
 
 #imp{overflow: auto}
+.jz {
+    font-size: 20px;
+    text-align: center;
+    background-color: #111111;
+    color: #6a6a6a;
+    font-family: "微软雅黑", "幼圆";
+}
+
+
+.we_link:hover{color:#6a6a6a;}
+#1 {
+    font-family: "微软雅黑", "幼圆";
+    color: #a7a2a2;
+}
+.we_link{color:#6a6a6a;}
