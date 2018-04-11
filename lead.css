@@ -33,6 +33,7 @@ a{text-decoration: none;font-family:Microsoft YaHei UI;}
 /*.back{transform: translateY(-100px)}*/
 
 .jz {
+    margin-top: 30px;
     font-size: 20px;
     text-align: center;
     background-color: #111111;
