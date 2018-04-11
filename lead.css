@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 /*<meta name="viewport" content="width=device-width,initial-scale=1.0" />*/
 
@@ -29,8 +29,12 @@ a{text-decoration: none;font-family:Microsoft YaHei UI;}
 .01,.02,.03{width:150%;height:40%;box-shadow:none}
 .char3{color:black;margin-left:30%;margin-top:10%;transform: scale(1.1);font-size:18px;font-family:Microsoft YaHei UI }
 
+<<<<<<< HEAD
 #Top0,#exams0,#imp0{height:50px;opacity:0; transform: translateY(-100px)}
 /*.back{transform: translateY(-100px)}*/
+=======
+#imp{overflow: auto}
+>>>>>>> origin/master
 .jz {
     font-size: 20px;
     text-align: center;
@@ -46,6 +50,7 @@ a{text-decoration: none;font-family:Microsoft YaHei UI;}
     color: #a7a2a2;
 }
 .we_link{color:#6a6a6a;}
+<<<<<<< HEAD
 
 
 
@@ -59,3 +64,5 @@ a{text-decoration: none;font-family:Microsoft YaHei UI;}
 
 
 
+=======
+>>>>>>> origin/master
