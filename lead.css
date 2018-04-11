@@ -6,7 +6,7 @@ body{background:#eeeeee;
     margin:0px
 }
 div{margin:0;padding:0;overflow:hidden}
-.back{width:90%;background:rgb(255,255,255);height:620px;box-shadow:4px 4px 18px 4px rgb(180,180,180);margin:0 auto;margin-top: 5rem; border-radius:5px;margin-bottom:50px;height: 70rem;}
+.back{width:90%;background:rgb(255,255,255);height:620px;box-shadow:4px 4px 18px 4px rgb(180,180,180);margin:0 auto;/*margin-top: 5rem; margin-bottom:50px*/;padding-top:15px;border-radius:5px;height: 70rem;}
 #back0{margin-bottom:0px}
 .back ul li{list-style-type: none;float:left;margin-right:3%;width:20%;transform:translateX(14%) translateY(-35px)}
 .box{margin-top:35px;height:130px;border:thin rgb(177,201,234) solid;border-radius: 5px}
@@ -29,4 +29,33 @@ a{text-decoration: none;font-family:Microsoft YaHei UI;}
 .01,.02,.03{width:150%;height:40%;box-shadow:none}
 .char3{color:black;margin-left:30%;margin-top:10%;transform: scale(1.1);font-size:18px;font-family:Microsoft YaHei UI }
 
-#imp{overflow: auto}
+#Top0,#exams0,#imp0{height:50px;opacity:0; transform: translateY(-100px)}
+/*.back{transform: translateY(-100px)}*/
+.jz {
+    font-size: 20px;
+    text-align: center;
+    background-color: #111111;
+    color: #6a6a6a;
+    font-family: "微软雅黑", "幼圆";
+}
+
+
+.we_link:hover{color:#6a6a6a;}
+#1 {
+    font-family: "微软雅黑", "幼圆";
+    color: #a7a2a2;
+}
+.we_link{color:#6a6a6a;}
+
+
+
+
+
+
+
+
+
+
+
+
+
