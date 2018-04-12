@@ -45,8 +45,7 @@ html {
 #daohang ul li {
 	list-style: none;
 	display: inline;
-	margin: 1rem;
-	text-align: center;
+	text-align: right;
 }
 
 span>img {
@@ -56,19 +55,10 @@ span>img {
 
 #daohang ul li a {
 	text-decoration: none;
-	font-size: 4rem;
+	font-size: 3rem;
 	font-family: "Microsoft Yahei UI";
 	color: #696969;
 }
-
-#HUST_LOGO{
-	margin-right: 20rem;
-	margin-left: auto;
-	font-size: 3rem;
-	color: #476ee2;
-	height: 38px
-}
-
 #bglogo {
 	vertical-align: middle;
 	width: 159px;
@@ -208,6 +198,13 @@ input {
 	font-size: 2rem;
 	text-align: center;
 	color: #E49100;
+}
+ul.first li.HUST_LOGO{
+	float: left;
+	margin-left: 5rem;
+}
+ul.first li.kij{
+	margin-left: 3rem;
 }
 #ifirst {
 	height: 50px;

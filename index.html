@@ -10,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link href="lead.css" rel="stylesheet" type="text/css" />
 	<link href="for_GO.css" rel="stylesheet" type="text/css">
+	<script src="search.js"></script>
 
 </head>
 
@@ -74,35 +75,35 @@
 				</a>
 			</li>
 
-			<li>
+			<li class="kij">
 				<a href="#">
 					<span onMouseOver="changeimg1()" onMouseOut="recoverimg1()">
 						<img src="Search_52px_1.png" id="A" width="30">搜索</span>
 				</a>
 			</li>
 
-			<li>
+			<li class="kij">
 				<a href="#ifirst">
 					<span onMouseOver="changeimg2()" onMouseOut="recoverimg2()">
 						<img src="Star Filled_52px.png" id="B" width="30">校内必备</span>
 				</a>
 			</li>
 
-			<li>
+			<li class="kij">
 				<a href="#imp0">
 					<span onMouseOver="changeimg3()" onMouseOut="recoverimg3()">
 						<img src="Home_52px_4.png" id="C" width="30">常用网站</span>
 				</a>
 			</li>
 
-			<li>
+			<li class="kij">
 				<a href="#Top0">
 					<span onMouseOver="changeimg4()" onMouseOut="recoverimg4()">
 						<img src="Eye_52px_1.png" id="D" width="30">学习考试</span>
 				</a>
 			</li>
 
-			<li>
+			<li class="kij">
 				<a href="#exams0">
 					<span onMouseOver="changeimg5()" onMouseOut="recoverimg5()">
 						<img src="Graduation Cap_52px_1.png" id="E" width="30">慕课资源</span>
@@ -122,8 +123,8 @@
 		</div>
 		<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
 		<div id="searchbar">
-			<form action="http://www.baidu.com/s=" method="get" target="_blank">
-				<input type="text" placeholder="  快速搜索" id="inputbox">
+			<form action="http://www.baidu.com/s" method="get" target="_blank">
+				<input type="text" placeholder="快速搜索" id="inputbox" name="wd" maxlength="100" autocomplete="off">
 			</form>
 		</div>
 		<div class="briefs" id="two_words">
