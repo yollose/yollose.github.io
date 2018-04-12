@@ -17,14 +17,13 @@ div {
 .back {
     width: 90%;
     background: rgb(255, 255, 255);
-    height: 620px;
     box-shadow: 4px 4px 18px 4px rgb(180, 180, 180);
     margin: 0 auto;
     /*margin-top: 5rem; margin-bottom:50px*/
     ;
     padding-top: 15px;
     border-radius: 5px;
-    height: 70rem;
+    height: auto;
 }
 
 #back0 {
