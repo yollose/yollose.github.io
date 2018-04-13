@@ -50,24 +50,32 @@ div {
 }
 
 .top {
-    margin: 0;
+    margin: 0 auto;
     overflow: hidden;
     height: 56px;
 }
-
+#ssss{
+    margin-top: 2rem;
+}
+#sss{
+    margin-left: 1.6rem;
+}
 .pic {
     float: left;
     transform: translateX(95%) translateY(50%);
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
+    vertical-align:middle;
 }
 
 .cha1 {
-    font-family: Microsoft YaHei UI;
-    font-size: 30px;
-    color: rgba(76, 92, 205, 0.9);
+    font-family:"Microsoft Yahei UI";
+    font-weight: bold;
+    font-size: 18px;
+    color:rgb(0,0,255);
     transform: translateX(50%) translateY(55%);
     float: left;
+    vertical-align:middle;
 }
 
 span {
