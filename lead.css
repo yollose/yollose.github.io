@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*<meta name="viewport" content="width=device-width,initial-scale=1.0" />*/
+
+body {
+    background: #eeeeee;
+    margin: 0px
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+.back {
+    width: 90%;
+    background: rgb(255, 255, 255);
+    box-shadow: 4px 4px 18px 4px rgb(180, 180, 180);
+    margin: 0 auto;
+    /*margin-top: 5rem; margin-bottom:50px*/
+    ;
+    padding-top: 15px;
+    border-radius: 5px;
+    height: auto;
+}
+
+#back0 {
+    margin-bottom: 0px
+}
+
+.back ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 3%;
+    width: 20%;
+    transform: translateX(14%) translateY(-35px)
+}
+
+.box {
+    margin-top: 35px;
+    height: 130px;
+    border: thin rgb(177, 201, 234) solid;
+    border-radius: 5px
+}
+
+.box>img {
+    vertical-align: middle
+}
+
+.top {
+    margin: 0 auto;
+    overflow: hidden;
+    height: 56px;
+}
+#ssss{
+    margin-top: 2rem;
+}
+#sss{
+    margin-left: 1.6rem;
+}
+.pic {
+    float: left;
+    transform: translateX(95%) translateY(50%);
+    width: 24px;
+    height: 24px;
+    vertical-align:middle;
+}
+
+.cha1 {
+    font-family:"Microsoft Yahei UI";
+    font-weight: bold;
+    font-size: 18px;
+    color:rgb(0,0,255);
+    transform: translateX(50%) translateY(55%);
+    float: left;
+    vertical-align:middle;
+}
+
+span {
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    transform: translateX(25%) translateY(20%);
+    border-radius: 5px;
+    float: left
+}
+
+.box:hover {
+    transform: translateY(-5%);
+    box-shadow: 2px 5px 15px 0px rgba(85, 105, 205, 0.4);
+    transition: 0.3s ease;
+    transition-delay: 0.1s;
+}
+
+a {
+    text-decoration: none;
+    font-family: Microsoft YaHei UI;
+}
+
+.char2 {
+    font-size: 130%;
+    float: left;
+    margin-left: 10%;
+    color: black;
+    font-weight: 400
+}
+
+.char {
+    font-size: 130%;
+    color: #949494;
+    float: left;
+    clear: left;
+    margin-left: 3%
+}
+
+.one,
+.two,
+.three {
+    width: 150%;
+    height: 40%;
+    box-shadow: none
+}
+
+.char3 {
+    color: black;
+    margin-left: 30%;
+    margin-top: 10%;
+    transform: scale(1.1);
+    font-size: 18px;
+    font-family: Microsoft YaHei UI
+}
+
+#Top0,
+#exams0,
+#imp0 {
+    height: 50px;
+    opacity: 0;
+    transform: translateY(-100px)
+}
+
+/*.back{transform: translateY(-100px)}*/
+
+.jz {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #111111;
+    color: #6a6a6a;
+    font-family: "微软雅黑", "幼圆";
+}
+
+.we_link:hover {
+    color: #6a6a6a;
+}
+
+#1 {
+    font-family: "微软雅黑", "幼圆";
+    color: #a7a2a2;
+}
+
+.we_link {
+    color: #6a6a6a;
+}
