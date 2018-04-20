@@ -29,12 +29,16 @@ div {
 #back0 {
     margin-bottom: 0px
 }
+.back ul{
+    margin: 0 auto;
+}
 
 .back ul li {
     list-style-type: none;
     float: left;
     margin-right: 3%;
     width: 20%;
+    min-width: 200px;
     transform: translateX(14%) translateY(-35px)
 }
 
