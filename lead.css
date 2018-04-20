@@ -67,7 +67,9 @@ div {
     height: 24px;
     vertical-align:middle;
 }
-
+#inputbox{
+    padding-left: 15px;
+}
 .cha1 {
     font-family:"Microsoft Yahei UI";
     font-weight: bold;
